@@ -31,6 +31,7 @@ assessmentButton.onclick = () => {
     paragraph.innerText= result;
     resultDivided.appendChild(paragraph);
 
+    
     // todo   ツイートエリアの作成
     removeAllChildren(tweetDivided)
     const anchor = document.createElement('a');
